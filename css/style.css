@@ -9,11 +9,15 @@ body{
     background-size: cover;
 }
 
+.container{
+    background-color: rgba(255, 255, 255, 0.781);
+}
+
 .login a {
     margin-top: 18px;
     padding-right: 20px;
     float: right;
-} 
+}
 
 nav, .bg, .news , .body{
     border: 0.1px solid rgba(255, 0, 0, 0);
@@ -91,7 +95,7 @@ li{
 }
 
 .body{
-    background-color: #dadee0;
+    background-color: rgba(255, 255, 255, 0.705);
     opacity: 0.7;
 }
 
@@ -116,7 +120,7 @@ li{
 .b{
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;   
+    flex-wrap: wrap;
 }
 
 .i1-con{
@@ -211,14 +215,14 @@ li{
     height:100px;
 }
 
-.i3-img{  
+.i3-img{
     height:220px;
     width:175px;
     display: inline-block;
     margin-top: 10px;
     margin-left: 10px;
     background-image: url(../img/3.png);
-    background-repeat: no-repeat;  
+    background-repeat: no-repeat;
 }
 
 .i3-con{
